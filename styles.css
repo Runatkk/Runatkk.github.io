@@ -94,6 +94,15 @@ body {
   white-space: nowrap;
 }
 
+img:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 0px 0px rgba(0, 0, 0, 0.22);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.01);
+  transition: transform 0.4s ease-in-out;
+}
 /* Responsive Styles */
 @media (min-width: 480px) {
   .@[480px]:gap-8 {
