@@ -15,7 +15,7 @@ body {
 .layout-content-container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  /* max-width: 960px; */
   flex-grow: 1;
 }
 
@@ -108,11 +108,14 @@ img.full-width {
   height: auto;
 }
 
-/* runa.png だけホバーを無効化 */
+/* ホバーを無効化 */
 img[src="images/runa.png"]:hover {
   transform: none !important;
   box-shadow: none !important;
-
+}
+img[src="images/p_wuc.png"]:hover {
+  transform: none !important;
+  box-shadow: none !important;
 }
 
 /* Responsive Styles */
