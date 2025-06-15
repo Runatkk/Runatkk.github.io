@@ -1,5 +1,12 @@
 /* styles.css */
 
+@media (min-width: 1024px) {
+  .layout-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 /* Global Styles */
 body {
   font-family: 'Manrope', 'Noto Sans', sans-serif;
