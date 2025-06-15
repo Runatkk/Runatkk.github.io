@@ -114,7 +114,12 @@ img[src="images/runa.png"]:hover {
   box-shadow: none !important;
 }
 
-.wucPage img:hover {
+.hover-none img:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.santa img:hover {
   transform: none !important;
   box-shadow: none !important;
 }
