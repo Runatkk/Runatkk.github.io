@@ -1,11 +1,6 @@
 /* styles.css */
 
-@media (min-width: 1024px) {
-  .layout-container {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-}
+
 
 /* Global Styles */
 body {
@@ -13,7 +8,12 @@ body {
   background-color: #fff;
 }
 
-
+@media (min-width: 1024px) {
+  .container_for_xpadding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
 
 .layout-container {
   display: flex;

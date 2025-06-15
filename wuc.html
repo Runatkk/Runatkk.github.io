@@ -19,18 +19,24 @@
   <body>
     <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden">
       <div class="layout-container flex h-full grow flex-col">
-        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2f2f2] px-10 py-3">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2f2f2] px-5 py-3 ">
           <div class="flex items-center gap-4 text-[#252525]">
             <div class="flex gap-2">
               <a
-                href="index.html"
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#ffffff] text-white text-sm font-bold leading-normal tracking-[0.015em]"
-              >
-                <span class="truncate text-[#252525]">Home</span>
-              </a>
+              href="index.html"
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#ffffff] text-white text-sm font-bold leading-normal tracking-[0.015em] @[320px]:px-1"
+            >
+              <!-- ホームアイコン -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#252525] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M10 2.5L2.5 10h2.5v7.5h5V12.5h2.5v5h5V10h2.5L10 2.5z" />
+              </svg>
+              <span class="truncate text-[#252525]">Home</span>
+            </a>
             </div>
           </div>
         </header>
+
+        <div class="container_for_xpadding">
         <div class=" w-full justify-center">
           <div class="layout-content-container flex flex-col">
             <div class="@container">
@@ -258,5 +264,6 @@
           </div>
       </div>
     </div>
+  </div>
   </body>
 </html>
