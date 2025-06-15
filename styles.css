@@ -113,10 +113,12 @@ img[src="images/runa.png"]:hover {
   transform: none !important;
   box-shadow: none !important;
 }
-img[src="images/p_wuc.png"]:hover {
+
+.wucPage img:hover {
   transform: none !important;
   box-shadow: none !important;
 }
+
 
 /* Responsive Styles */
 @media (min-width: 480px) {
