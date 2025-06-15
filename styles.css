@@ -114,6 +114,21 @@ img[src="images/runa.png"]:hover {
   box-shadow: none !important;
 }
 
+img[src="images/m.png"]:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+img[src="images/other.png"]:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+img[src="images/wuc.png"]:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
 .hover-none img:hover {
   transform: none !important;
   box-shadow: none !important;
