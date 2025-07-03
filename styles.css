@@ -122,7 +122,10 @@ img[src="images/runa.png"]:hover {
   transform: none !important;
   box-shadow: none !important;
 }
-
+img[src="images/topcon.png"]:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
 img[src="images/m.png"]:hover {
   transform: none !important;
   box-shadow: none !important;
